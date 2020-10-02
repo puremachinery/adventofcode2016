@@ -1,5 +1,5 @@
-import Direction._
-import Orientation._
+import MapDirection._
+import TurnDirection._
 
 case class Position(x: Int, y: Int)
 

@@ -1,5 +1,6 @@
-import scala.collection._
 import Keys._
+
+import scala.collection._
 
 case class Key(name: String, adjacentKeys: mutable.Map[KeypadDirection, Key]) {
   override def toString: String = this.name
